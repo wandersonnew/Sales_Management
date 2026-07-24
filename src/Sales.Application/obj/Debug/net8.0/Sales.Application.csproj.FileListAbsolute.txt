@@ -1,0 +1,15 @@
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\bin\Debug\net8.0\Sales.Application.deps.json
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\bin\Debug\net8.0\Sales.Application.dll
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\bin\Debug\net8.0\Sales.Application.pdb
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\bin\Debug\net8.0\Sales.Domain.dll
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\bin\Debug\net8.0\Sales.Domain.pdb
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.csproj.AssemblyReference.cache
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.AssemblyInfoInputs.cache
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.AssemblyInfo.cs
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.csproj.CoreCompileInputs.cache
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Ap.0A743CAB.Up2Date
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.dll
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\refint\Sales.Application.dll
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\Sales.Application.pdb
+C:\Users\wn6491\Documents\Sales\src\Sales.Application\obj\Debug\net8.0\ref\Sales.Application.dll
