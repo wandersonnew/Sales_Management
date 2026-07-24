@@ -38,12 +38,6 @@ dotnet run
 
 A API estará disponível em `https://localhost:5001` com Swagger UI em `/swagger`.
 
-### Rodando com Docker
-
-```bash
-docker-compose up
-```
-
 ## Endpoints
 
 A documentação completa dos endpoints está disponível via Swagger ao executar a aplicação.
