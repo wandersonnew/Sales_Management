@@ -1,3 +1,4 @@
+using Sales.API.Configurations;
 using Sales.Application;
 using Sales.Infrastructure;
 using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
@@ -15,6 +16,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.ApplyMigrationsInit();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
