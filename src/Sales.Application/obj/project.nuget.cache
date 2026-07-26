@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WX3escvd7T8=",
+  "dgSpecHash": "dQBQlqEN09E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wn6491\\Documents\\Sales\\src\\Sales.Application\\Sales.Application.csproj",
+  "projectFilePath": "C:\\Users\\wande\\Documents\\Sales_Management\\src\\Sales.Application\\Sales.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\wn6491\\.nuget\\packages\\fluentvalidation\\8.6.3\\fluentvalidation.8.6.3.nupkg.sha512",
-    "C:\\Users\\wn6491\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\8.6.3\\fluentvalidation.dependencyinjectionextensions.8.6.3.nupkg.sha512",
-    "C:\\Users\\wn6491\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\wn6491\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    "C:\\Users\\wande\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\wande\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\wande\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.10\\microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512"
   ],
   "logs": []
 }
