@@ -49,13 +49,14 @@ namespace Sales.API.Controllers
             return Ok(product);
         }
 
-        [HttpGet]
-        public async Task<ActionResult<PagedResultDto<ProductDto>>> ListProducts(
-            [FromQuery] int page = 1, 
+        [HttpGet("Search")]
+        public async Task<ActionResult<PagedResultDto<ProductDto>>> SearchProducts(
+            [FromQuery] FilterProductDto search,
+            [FromQuery] int page = 1,
             [FromQuery] int pageSize = 10
         )
         {
-            var products = await _productService.ListProduct(page, pageSize);
+            var products = await _productService.SearchProduct(search, page, pageSize);
 
             return Ok(products);
         }

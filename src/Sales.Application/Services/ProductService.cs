@@ -65,10 +65,11 @@ namespace Sales.Application.Services
             };
         }
 
-        public async Task<PagedResultDto<ProductDto>> ListProduct(int page, int pageSize)
+        public async Task<PagedResultDto<ProductDto>> SearchProduct(FilterProductDto filters, int page, int pageSize)
         {
-            var products = await _productRepository.GetAllPaginated(page, pageSize);
-            var totalCounts = await _productRepository.Count();
+            var products = await _productRepository.SearchProducts(filters, page, pageSize);
+
+            var totalCounts = await _productRepository.CountByFilters(filters);
 
             return new PagedResultDto<ProductDto>
             {
@@ -80,7 +81,7 @@ namespace Sales.Application.Services
                     Qty = s.Qty,
                     UseByDT = s.UseByDT
                 }),
-                TotalCount = totalCounts,
+                TotalCount = 0,
                 Page = page,
                 PageSize = pageSize
             };

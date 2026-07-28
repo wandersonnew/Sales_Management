@@ -13,6 +13,6 @@ namespace Sales.Application.Interfaces.Services
 
         Task<ProductDto> GetProduct(Guid id);
 
-        Task<PagedResultDto<ProductDto>> ListProduct(int page, int pageSize);
+        Task<PagedResultDto<ProductDto>> SearchProduct(FilterProductDto filters, int page, int pageSize);
     }
 }
